@@ -1,0 +1,15 @@
+quanser_cartpole quanser_qube
+
+
+bash num_planning_traj.sh quanser_ball
+bash num_planning_traj.sh quanser_cartpole
+bash num_planning_traj.sh quanser_qube
+
+
+bash planning_depth.sh quanser_ball
+bash planning_depth.sh quanser_cartpole
+bash planning_depth.sh quanser_qube
+
+bash timesteps_per_batch.sh quanser_ball
+bash timesteps_per_batch.sh quanser_cartpole
+bash timesteps_per_batch.sh quanser_qube

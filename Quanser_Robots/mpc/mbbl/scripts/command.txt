@@ -1,0 +1,22 @@
+CUDA_VISIBLE_DEVICES=3 python main/rs_main.py --num_planning_traj 10 --planning_depth 10 --random_timesteps 10000 --timesteps_per_batch 3000 --num_workers 1 --max_timesteps 200000 --seed 0 --task quanser_ball
+
+CUDA_VISIBLE_DEVICES=3 python main/rs_main.py --num_planning_traj 10 --planning_depth 10 --random_timesteps 10000 --timesteps_per_batch 3000 --num_workers 1 --max_timesteps 200000 --seed 0 --task quanser_cartpole
+
+
+CUDA_VISIBLE_DEVICES=3 python main/rs_main.py --num_planning_traj 10 --planning_depth 10 --random_timesteps 10000 --timesteps_per_batch 3000 --num_workers 1 --max_timesteps 200000 --seed 0 --task quanser_qube
+
+
+CUDA_VISIBLE_DEVICES=0 python ../../main/rs_main.py --output_dir ../../log --num_planning_traj 10 --planning_depth 10 --random_timesteps 10000 --timesteps_per_batch 3000 --num_workers 1 --max_timesteps 200000 --seed 0 --task $task
+
+CUDA_VISIBLE_DEVICES=0 python ../../main/m_main.py --output_dir ../../log --num_planning_traj 10 --planning_depth 10 --random_timesteps 10000 --timesteps_per_batch 3000 --num_workers 1 --max_timesteps 200000 --seed 0 --task $task
+
+
+python main/mbmf_main.py --exp_id mbmf_gym_cheetah_ppo_seed_1234 \
+    --task gym_cheetah --trust_region_method ppo \
+    --num_planning_traj 5000 --planning_depth 20 --random_timesteps 1000 \
+    --timesteps_per_batch 1000 --dynamics_epochs 30 \
+    --num_workers 20 --mb_timesteps 7000 --dagger_epoch 300 \
+    --dagger_timesteps_per_iter 1750 --max_timesteps 200000 \
+    --seed 1234 --dynamics_batch_size 500
+
+

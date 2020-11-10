@@ -1,0 +1,50 @@
+default set:
+seed-X/mlp/policy_hidden_layer-3/policy_hidden_size-128/batchsize-1024/gamma-0.99/vf_stepsize-0.0003/policy_entcoeff-0/vf_iters-3/max_kl-0.001/cg_iters-10/cg_damp
+ing-0.01/lam-1.0
+#cg_iter 和 cg_damping不动 spinning up
+
+bash default.sh BallBalancerSim-v0
+bash default.sh CartpoleSwingShort-v0
+bash default.sh Qube-100-v0
+
+
+bash gamma.sh BallBalancerSim-v0
+bash gamma.sh CartpoleSwingShort-v0
+bash gamma.sh Qube-100-v0
+
+
+bash hidden_layer.sh BallBalancerSim-v0
+bash hidden_layer.sh CartpoleSwingShort-v0
+bash hidden_layer.sh Qube-100-v0
+
+bash hidden_size.sh BallBalancerSim-v0
+bash hidden_size.sh CartpoleSwingShort-v0
+bash hidden_size.sh Qube-100-v0
+
+bash vf_stepsize.sh BallBalancerSim-v0
+bash vf_stepsize.sh CartpoleSwingShort-v0
+bash vf_stepsize.sh Qube-100-v0
+
+bash vf_iters.sh BallBalancerSim-v0
+bash vf_iters.sh CartpoleSwingShort-v0
+bash vf_iters.sh Qube-100-v0
+
+
+bash batchsize.sh BallBalancerSim-v0
+bash batchsize.sh CartpoleSwingShort-v0
+bash batchsize.sh Qube-100-v0
+
+
+bash policy_entcoeff.sh BallBalancerSim-v0
+bash policy_entcoeff.sh CartpoleSwingShort-v0
+bash policy_entcoeff.sh Qube-100-v0
+
+bash max_kl.sh BallBalancerSim-v0
+bash max_kl.sh CartpoleSwingShort-v0
+bash max_kl.sh Qube-100-v0
+
+
+bash lam.sh BallBalancerSim-v0
+bash lam.sh CartpoleSwingShort-v0
+bash lam.sh Qube-100-v0
+
