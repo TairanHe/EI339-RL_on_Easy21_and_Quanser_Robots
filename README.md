@@ -32,8 +32,11 @@ This script will return the result of ```MC```, ```Value iteration```, ```Policy
 
 You can have the 3-D value function result:
 
+<div class="test">
 <img src="https://github.com/TairanHe/EE201-WhynotMap-A_Visualized_Academic_System/blob/master/images/57.png" width="20%" height="20%">
 <img src="https://github.com/TairanHe/EE201-WhynotMap-A_Visualized_Academic_System/blob/master/images/57.png" width="20%" height="20%">
+</div>
+
 
 ![Value Function of MC](https://github.com/TairanHe/EE201-WhynotMap-A_Visualized_Academic_System/blob/master/images/57.png {width=40px height=40px})
 ![Value Function of MC](https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/EASY_21/MCMC_value.png){:height=19%" width=19%"}
