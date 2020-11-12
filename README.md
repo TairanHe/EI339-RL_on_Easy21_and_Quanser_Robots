@@ -70,10 +70,12 @@ python trpo_draw.py
 ```
 
 You may have visulized result of three environments, for example, batchsize as follows:
-
-![TRPO_batchsize_Qube](https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/TRPO/TRPO-Qube-batchsize.pdf){:height=32%" width=32%"}
+<img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/TRPO/TRPO-Qube-batchsize.png" width="33%" height="33%">
+<img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/TRPO/TRPO-Ball-batchsize.png" width="33%" height="33%">
+<img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/TRPO/TRPO-Cart-batchsize.png" width="33%" height="33%">
+<!-- ![TRPO_batchsize_Qube](https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/TRPO/TRPO-Qube-batchsize.pdf){:height=32%" width=32%"}
 ![TRPO_batchsize_Ball](https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/TRPO/TRPO-Ball-batchsize.pdf){:height=32%" width=32%"}
-![TRPO_batchsize_Cart](https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/TRPO/TRPO-Cart-batchsize.pdf){:height=32%" width=32%"}
+![TRPO_batchsize_Cart](https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/TRPO/TRPO-Cart-batchsize.pdf){:height=32%" width=32%"} -->
 
 We have conducted 9 hyperparamter scripts: ```batchsize.sh```, ```gamma.sh```, ```hidden_layer.sh```, ```hidden_size.sh```, ```lam.sh```, ```max_kl.sh```, ```policy_entcoeff.sh```, ```vf_iters.sh```, ```vf_stepsize.sh```.
 
