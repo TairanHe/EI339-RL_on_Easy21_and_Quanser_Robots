@@ -158,7 +158,9 @@ You can have the visualized comparison between MPC-RS, MPC-MB-MF and MPC-PETS-CE
 [Qube_Qube](https://www.baidu.com)
 [Qube_Qube](https://www.baidu.com)
 [Qube_Qube](https://www.baidu.com) -->
+## Referrence
 
+This code repo is based on implementation of [baselines](https://github.com/openai/baselines) and [MBBL](https://github.com/WilsonWangTHU/mbbl) 
 
 
 
