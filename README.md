@@ -1,2 +1,135 @@
-# EI339_RL_on_Easy21_and_Quanser_Robots
-Reinforcement learning implementation on Easy 21 and Quanser Robots
+# EI339 RL on Easy21 and Quanser Robots
+Group Project of EI339.  
+
+Reinforcement learning implementation on Easy 21 and Quanser Robots.
+
+## Environment Set Up
+#####Install MBBL module:
+
+Enter ```Quanser_Robots/mpc/mbbl/```, and run:
+```
+pip install -e .
+```
+
+#####Install Quanser Robots envirinment:
+
+Enter ```Quanser_Robots/mpc/mbbl/env/quanser_env/```, and run:
+```
+pip install -e .
+```
+
+#####Tensorflow version:
+```
+pip install tensorflow==1.14.0 or pip install tensorflow-gpu==1.14.0
+```
+
+## Run Easy 21 
+Enter ```Easy_21/```, and run:
+```
+bash run.sh
+```
+This script will return the result of ```MC```, ```Value iteration```, ```Policy iteration```, ```Q-learning``` and ```SARSA```.
+
+You can have the 3-D value function result:
+
+![Value Function of MC](fig/EASY_21/MCMC_value-crop.pdf){:height=19%" width=19%" "GitHub,Social Coding"}
+![Value Function of MC](fig/EASY_21/optimal_value-crop.pdf){:height=19%" width=19%"}
+![Value Function of MC](fig/EASY_21/policy_iter_value-crop.pdf){:height=19%" width=19%"}
+![Value Function of Q-learning](fig/EASY_21/Q_learning_LR=0.025_DE_optimistic_False_value-crop.pdf){:height=19%" width=19%"}
+![Value Function of SARSA](fig/EASY_21/SARSA_LR=0.025_DE_optimistic_False_value-crop.pdf){:height=19%" width=19%"}
+ 
+ You may check more visualized result at ```Easy_21/fig/``` of different hyperparameters and the impact of ```optimistic initialization``` on ```Q-learning``` and ```SARSA``` . 
+
+## Run TRPO on Quanser Robots 
+Enter ```Quanser_Robots/my_trpo/scripts```, and run the scripts of different experiment tests. 
+
+First run the default TRPO baselines:
+```
+bash default.sh
+```
+Then for example, you may run test on batchsize of TRPO with three random seeds:
+```
+bash batchsize.sh Qube-100-v0
+bash batchsize.sh BallBalancerSim-v0
+bash batchsize.sh CartpoleSwingShort-v0
+```
+
+Then enter ```Quanser_Robots/my_trpo/```, and run the plot script:
+```
+python trpo_draw.py
+```
+
+You may have visulized result of three environments, for example, batchsize as follows:
+
+![TRPO_batchsize_Qube](fig/TRPO/TRPO-Qube-batchsize.pdf){:height=32%" width=32%"}
+![TRPO_batchsize_Ball](fig/TRPO/TRPO-Ball-batchsize.pdf){:height=32%" width=32%"}
+![TRPO_batchsize_Cart](fig/TRPO/TRPO-Cart-batchsize.pdf){:height=32%" width=32%"}
+
+We have conducted 9 hyperparamter scripts: ```batchsize.sh```, ```gamma.sh```, ```hidden_layer.sh```, ```hidden_size.sh```, ```lam.sh```, ```max_kl.sh```, ```policy_entcoeff.sh```, ```vf_iters.sh```, ```vf_stepsize.sh```.
+
+## Run MPC on Quanser Robots 
+Enter ```Quanser_Robots/mpc/scripts```, and run the scripts of different experiment tests. 
+
+#### MPC-RS (Random Shooting)
+Enter ```Quanser_Robots/mpc/scripts/rs```
+
+First run the default MPC-RS (Random Shooting) baselines:
+
+```
+bash default.sh
+```
+Then for example, you may run test on planning depth of MPC-RS:
+```
+bash planning_depth.sh quanser_qube
+bash planning_depth.sh quanser_ball
+bash planning_depth.sh quanser_cartpole
+```
+
+Then enter ```Quanser_Robots/mpc/mbbl/```, and run the plot script:
+```
+python mpc_draw.py
+```
+
+You may have visulized result of three environments, for example, planning depth as follows:
+
+![MPC_planning_depth_Qube](fig/RS/MPC-rs-quanser_qube-plannging depth-reward.pdf){:height=32%" width=32%"}
+![MPC_planning_depth_Ball](fig/RS/MPC-rs-quanser_ball-plannging depth-reward.pdf){:height=32%" width=32%"}
+![MPC_planning_depth_Cart](fig/RS/MPC-rs-quanser_cartpole-plannging depth-reward.pdf){:height=32%" width=32%"}
+We have conducted 3 hyperparamter scripts: ```num_planning_traj.sh```, ```planning_depth.sh``` and ```timesteps_per_batch.sh```.
+
+#### MPC-MB-MF (Mode-Free Model-Based)
+Enter ```Quanser_Robots/mpc/scripts/mb-mf```
+
+First run the default MPC-MB-MF (Mode-Free Model-Based) baselines:
+
+```
+bash quanser_qube.sh
+bash quanser_ball.sh
+bash quanser_cartpole.sh
+```
+
+#### MPC-PETS-CEM (Probabilistic Ensembles with Trajectory Sampling)
+Enter ```Quanser_Robots/mpc/scripts/pets-cem```
+
+First run the default MPC-PETS-CEM (Probabilistic Ensembles with Trajectory Sampling) baselines:
+
+```
+bash quanser_qube.sh
+bash quanser_ball.sh
+bash quanser_cartpole.sh
+```
+
+You can have the visualized comparison between MPC-RS, MPC-MB-MF and MPC-PETS-CEM:
+![MPC_planning_depth_Qube](fig/MPC/MPC-quanser_qube-reward.pdf){:height=32%" width=32%"}
+![MPC_planning_depth_Qube](fig/MPC/MPC-quanser_ball-reward.pdf){:height=32%" width=32%"}
+![MPC_planning_depth_Qube](fig/MPC/MPC-quanser_cartpole-reward.pdf){:height=32%" width=32%"}
+
+<!-- ##Video demo
+[Qube_Qube](https://www.baidu.com)
+[Qube_Qube](https://www.baidu.com)
+[Qube_Qube](https://www.baidu.com) -->
+
+
+
+
+
