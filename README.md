@@ -32,13 +32,13 @@ This script will return the result of ```MC```, ```Value iteration```, ```Policy
 
 You can have the 3-D value function result:
 
-
+<div class="test">
 <img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/EASY_21/MCMC_value-crop.png" width="19%" height="19%">
 <img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/EASY_21/optimal_value-crop.png" width="19%" height="19%">
 <img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/EASY_21/policy_iter_value-crop.png" width="19%" height="19%">
 <img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/EASY_21/Q_learning_LR=0.025_DE_optimistic_False_value-crop.png" width="19%" height="19%">
 <img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/EASY_21/SARSA_LR=0.025_DE_optimistic_False_value-crop.png" width="19%" height="19%">
-
+</div>
 
 
 
@@ -71,9 +71,11 @@ python trpo_draw.py
 
 You may have visulized result of three environments, for example, batchsize as follows:
 
+<div class="test">
 <img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/TRPO/TRPO-Qube-batchsize.png" width="33%" height="33%">
 <img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/TRPO/TRPO-Ball-batchsize.png" width="33%" height="33%">
 <img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/TRPO/TRPO-Cart-batchsize.png" width="33%" height="33%">
+</div>
 <!-- ![TRPO_batchsize_Qube](https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/TRPO/TRPO-Qube-batchsize.pdf){:height=32%" width=32%"}
 ![TRPO_batchsize_Ball](https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/TRPO/TRPO-Ball-batchsize.pdf){:height=32%" width=32%"}
 ![TRPO_batchsize_Cart](https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/TRPO/TRPO-Cart-batchsize.pdf){:height=32%" width=32%"} -->
