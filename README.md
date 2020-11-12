@@ -107,9 +107,16 @@ python mpc_draw.py
 
 You may have visulized result of three environments, for example, planning depth as follows:
 
-![MPC_planning_depth_Qube](https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/EASY_21/MCMC_reward-crop.pdf){:height=32%" width=32%"}
+<div class="test">
+<img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/RS/MPC-rs-quanser_qube-plannging depth-reward.png" width="32%" height="32%">
+<img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/RS/MPC-rs-quanser_ball-plannging depth-reward.png" width="32%" height="32%">
+<img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/RS/MPC-rs-quanser_cartpole-plannging depth-reward.png" width="32%" height="32%">
+</div>
+
+<!-- 
+
 ![MPC_planning_depth_Ball](https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/RS/MPC-rs-quanser_ball-plannging depth-reward.pdf){:height=32%" width=32%"}
-![MPC_planning_depth_Cart](https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/RS/MPC-rs-quanser_cartpole-plannging depth-reward.pdf){:height=32%" width=32%"}
+![MPC_planning_depth_Cart](https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/RS/MPC-rs-quanser_cartpole-plannging depth-reward.pdf){:height=32%" width=32%"} -->
 We have conducted 3 hyperparamter scripts: ```num_planning_traj.sh```, ```planning_depth.sh``` and ```timesteps_per_batch.sh```.
 
 #### MPC-MB-MF (Mode-Free Model-Based)
