@@ -105,7 +105,7 @@ Then enter ```Quanser_Robots/mpc/mbbl/```, and run the plot script:
 python mpc_draw.py
 ```
 
-You may have visulized result of three environments, for example, planning depth as follows:
+You may have the visulized results of three environments, for example, planning depth as follows:
 
 <div class="test">
 <img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/RS/MPC-rs-quanser_qube-plannging depth-reward.png" width="32%" height="32%">
@@ -141,11 +141,19 @@ bash quanser_ball.sh
 bash quanser_cartpole.sh
 ```
 
+
 You can have the visualized comparison between MPC-RS, MPC-MB-MF and MPC-PETS-CEM:
-![MPC_planning_depth_Qube](https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/MPC/MPC-quanser_qube-reward.pdf){:height=32%" width=32%"}
+
+<div class="test">
+<img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/MPC/MPC-quanser_qube-reward.png" width="32%" height="32%">
+<img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/MPC/MPC-quanser_ball-reward.png" width="32%" height="32%">
+<img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/MPC/MPC-quanser_cartpole-reward.png" width="32%" height="32%">
+</div>
+
+<!-- ![MPC_planning_depth_Qube](https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/MPC/MPC-quanser_qube-reward.pdf){:height=32%" width=32%"}
 ![MPC_planning_depth_Qube](https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/MPC/MPC-quanser_ball-reward.pdf){:height=32%" width=32%"}
 ![MPC_planning_depth_Qube](https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/MPC/MPC-quanser_cartpole-reward.pdf){:height=32%" width=32%"}
-
+ -->
 <!-- ##Video demo
 [Qube_Qube](https://www.baidu.com)
 [Qube_Qube](https://www.baidu.com)
