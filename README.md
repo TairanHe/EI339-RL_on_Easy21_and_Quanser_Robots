@@ -37,7 +37,7 @@ You can have the 3-D value function result:
 <img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/EASY_21/optimal_value-crop.png" width="20%" height="20%">
 <img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/EASY_21/policy_iter_value-crop.png" width="20%" height="20%">
 <img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/EASY_21/Q_learning_LR=0.025_DE_optimistic_False_value-crop.png" width="20%" height="20%">
-<img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/EASY_21/SARSA_LR=0.025_DE_optimistic_False_value-crpo.png" width="20%" height="20%">
+<img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/EASY_21/SARSA_LR=0.025_DE_optimistic_False_value-crop.png" width="20%" height="20%">
 </div>
 
 
