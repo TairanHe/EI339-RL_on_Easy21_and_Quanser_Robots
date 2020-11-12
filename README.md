@@ -72,9 +72,9 @@ python trpo_draw.py
 You may have visulized result of three environments, for example, batchsize as follows:
 
 <div class="test">
-<img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/TRPO/TRPO-Qube-batchsize.png" width="33%" height="33%">
-<img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/TRPO/TRPO-Ball-batchsize.png" width="33%" height="33%">
-<img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/TRPO/TRPO-Cart-batchsize.png" width="33%" height="33%">
+<img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/TRPO/TRPO-Qube-batchsize.png" width="32%" height="32%">
+<img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/TRPO/TRPO-Ball-batchsize.png" width="32%" height="32%">
+<img src="https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/TRPO/TRPO-Cart-batchsize.png" width="32%" height="32%">
 </div>
 <!-- ![TRPO_batchsize_Qube](https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/TRPO/TRPO-Qube-batchsize.pdf){:height=32%" width=32%"}
 ![TRPO_batchsize_Ball](https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/TRPO/TRPO-Ball-batchsize.pdf){:height=32%" width=32%"}
