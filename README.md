@@ -31,7 +31,7 @@ bash run.sh
 This script will return the result of ```MC```, ```Value iteration```, ```Policy iteration```, ```Q-learning``` and ```SARSA```.
 
 You can have the 3-D value function result:
-![Value Function of MC](https://github.com/TairanHe/EE201-WhynotMap-A_Visualized_Academic_System/blob/master/images/57.png)
+![Value Function of MC](https://github.com/TairanHe/EE201-WhynotMap-A_Visualized_Academic_System/blob/master/images/57.png){:height=19%" width=19%"}
 ![Value Function of MC](https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/EASY_21/MCMC_value.png){:height=19%" width=19%"}
 ![Value Function of MC](https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/EASY_21/optimal_value-crop.pdf){:height=19%" width=19%"}
 ![Value Function of MC](https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/EASY_21/policy_iter_value-crop.pdf){:height=19%" width=19%"}
