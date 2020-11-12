@@ -4,21 +4,21 @@ Group Project of EI339.
 Reinforcement learning implementation on Easy 21 and Quanser Robots.
 
 ## Environment Set Up
-###Install MBBL module:
+##### Install MBBL module:
 
 Enter ```Quanser_Robots/mpc/mbbl/```, and run:
 ```
 pip install -e .
 ```
 
-###Install Quanser Robots envirinment:
+##### Install Quanser Robots envirinment:
 
 Enter ```Quanser_Robots/mpc/mbbl/env/quanser_env/```, and run:
 ```
 pip install -e .
 ```
 
-###Tensorflow version:
+##### Tensorflow version:
 ```
 pip install tensorflow==1.14.0 or pip install tensorflow-gpu==1.14.0
 ```
