@@ -4,21 +4,21 @@ Group Project of EI339.
 Reinforcement learning implementation on Easy 21 and Quanser Robots.
 
 ## Environment Set Up
-#####Install MBBL module:
+###Install MBBL module:
 
 Enter ```Quanser_Robots/mpc/mbbl/```, and run:
 ```
 pip install -e .
 ```
 
-#####Install Quanser Robots envirinment:
+###Install Quanser Robots envirinment:
 
 Enter ```Quanser_Robots/mpc/mbbl/env/quanser_env/```, and run:
 ```
 pip install -e .
 ```
 
-#####Tensorflow version:
+###Tensorflow version:
 ```
 pip install tensorflow==1.14.0 or pip install tensorflow-gpu==1.14.0
 ```
@@ -92,7 +92,7 @@ python mpc_draw.py
 
 You may have visulized result of three environments, for example, planning depth as follows:
 
-![MPC_planning_depth_Qube](https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/EASY_21/MCMC_reward-crop.png){:height=32%" width=32%"}
+![MPC_planning_depth_Qube](https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/EASY_21/MCMC_reward-crop.pdf){:height=32%" width=32%"}
 ![MPC_planning_depth_Ball](https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/RS/MPC-rs-quanser_ball-plannging depth-reward.pdf){:height=32%" width=32%"}
 ![MPC_planning_depth_Cart](https://github.com/TairanHe/EI339_RL_on_Easy21_and_Quanser_Robots/blob/master/fig/RS/MPC-rs-quanser_cartpole-plannging depth-reward.pdf){:height=32%" width=32%"}
 We have conducted 3 hyperparamter scripts: ```num_planning_traj.sh```, ```planning_depth.sh``` and ```timesteps_per_batch.sh```.
