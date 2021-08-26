@@ -1,5 +1,5 @@
 # EI339 RL on Easy21 and Quanser Robots
-Group Project of EI339.  
+Project of EI339.  
 
 Reinforcement learning implementation on Easy 21 and Quanser Robots.
 
